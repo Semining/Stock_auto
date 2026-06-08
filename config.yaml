@@ -1,0 +1,15 @@
+watchlist:
+  - "AAPL"
+  - "TSLA"
+  - "NVDA"
+  - "MSFT"
+  - "AMZN"
+
+thresholds:
+  price_change_pct: 0.1      # 0.1%로 낮추면 거의 무조건 감지
+  volume_surge_ratio: 0.1
+
+recipients:
+  - "sjtpals0111@gmail.com"
+
+scan_sp500: false
