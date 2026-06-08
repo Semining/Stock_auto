@@ -2,8 +2,8 @@ name: Stock Surge Alert
 
 on:
   schedule:
-    - cron: '30 23 * * 1-5'  # KST 08:30 (장 시작 직후)
-    - cron: '30 21 * * 1-5'  # KST 06:30 (장 마감 직후)
+    - cron: '30 14 * * 1-5'  # EST 09:30 = KST 23:30 (장 시작 직후)
+    - cron: '30 21 * * 1-5'  # EST 16:30 = KST 06:30 (장 마감 직후)
   workflow_dispatch:
 
 jobs:
